@@ -19,23 +19,24 @@ export default {
 
 <style scoped>
 .header {
-    border: 1px solid white;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 1rem;
     /* max-width: 500px; */
-    padding: 1rem;
+    padding: 1.5rem;
 
     display: flex;
     justify-content: space-between;
     /* gap: 1rem; */
 }
-.header__myBalance {
-    
-}
+.header__myBalance {}
 .header__myBalance-title {
     font-size: .8rem;
     padding-bottom: .5rem;
+    color: hsl(33, 100%, 98%);
 }
 .header__myBalance-money {
     font-size: 1.5rem;
+    font-weight: 400;
 }
 .header__logo {}
 </style>

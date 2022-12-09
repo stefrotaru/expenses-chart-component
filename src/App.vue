@@ -30,7 +30,7 @@ html {}
 
 body {
   height: 100vh;
-  background-color: #2c3e50;
+  background-color: hsl(27, 66%, 92%);
   font-family: 'DM Sans', sans-serif;
 
   display: flex;

@@ -23,6 +23,6 @@ export default {
 
 <style scoped>
 .expensesApp {
-  border: 1px solid white;
+
 }
 </style>

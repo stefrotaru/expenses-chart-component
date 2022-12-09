@@ -27,6 +27,11 @@ export default {
 
 <style>
 .expenses {
+    margin-block-start: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: hsl(25, 47%, 15%);
+
     display: flex;
     flex-direction: column;
 }

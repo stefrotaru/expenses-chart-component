@@ -37,7 +37,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
 .chart-container {
     padding: 2rem;
 }
@@ -50,5 +50,9 @@ export default {
     display: flex;
     align-items: baseline;
     gap: 1rem;
+}
+
+.chart > .chartBar:nth-child(3) > .chartBar__procentage {
+    background-color: hsl(186, 34%, 60%);
 }
 </style>
