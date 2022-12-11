@@ -15,9 +15,6 @@ export default {
     ExpensesHeader,
     ExpensesMain,
   },
-  props: {
-    
-  }
 }
 </script>
 

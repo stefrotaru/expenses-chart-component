@@ -18,14 +18,15 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .spendings {
     padding: 2rem;
 
     display: flex;
     justify-content: space-between;
 }
-.spendings__left-col > p {
+.spendings__left-col > p, .spendings__right-col > p {
+    font-size: calc(.5rem + .8vw);
     padding-block-end: .25rem;
     color: hsl(28, 10%, 53%);
 }
@@ -34,17 +35,20 @@ export default {
     flex-direction: column;
     justify-content: flex-end;
 }
-.spendings__right-col > p {
-    padding-block-start: .25rem;
-}
 .spendings__percentage {
-    font-size: 1.2rem;
+    font-size: calc(.75rem + 1vw);
     font-weight: 600;
     align-self: flex-end;
     justify-self: flex-end;
 }
 .spendings__total {
-    font-size: 2.5rem;
+    font-size: calc(1.5rem + 1.5vw);
     font-weight: 600;
+}
+
+@media (max-width: 450px) {
+    .spendings {
+        padding: 1rem;
+    }
 }
 </style>

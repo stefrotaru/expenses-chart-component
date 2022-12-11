@@ -25,7 +25,6 @@ export default {
     display: flex;
     justify-content: space-between;
 }
-.header__myBalance {}
 .header__myBalance-title {
     font-size: .8rem;
     padding-bottom: .5rem;
