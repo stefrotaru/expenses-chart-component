@@ -42,17 +42,27 @@ export default {
     padding: 2rem;
 }
 .chart-title {
+    font-size: 2em;
     padding-bottom: 4rem;
 }
 .chart {
-    /* padding: 2rem; */
-
     display: flex;
     align-items: baseline;
+    justify-content: center;
     gap: 1rem;
 }
 
 .chart > .chartBar:nth-child(3) > .chartBar__procentage {
     background-color: hsl(186, 34%, 60%);
+}
+
+@media (max-width: 450px) {
+    .chart-container {
+        padding: 1rem;
+    }
+
+    .chart-title {
+        font-size: 1.5em;
+    }
 }
 </style>

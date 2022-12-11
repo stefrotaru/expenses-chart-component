@@ -9,12 +9,9 @@
 export default {
     name: 'ExpensesMainChartBar',
     data () {
-        return {
-            
-        }
+        return {}
     },
     props: ['expenses'],
-    methods: {},
     computed: {
         cssProps() {
             return {
@@ -22,8 +19,7 @@ export default {
                 '--chartBar-height': `${this.expenses.amount * 2}px`,
             }
         }
-    },
-    created () {}
+    }
 }
 </script>
 
@@ -36,7 +32,7 @@ export default {
 .chartBar__procentage {
     background-color: hsl(10, 79%, 65%);
     border-radius: 5px;
-    width: 2.5rem;
+    width: 2.5em;
     height: var(--chartBar-height);
 }
 .chartBar__procentage:hover {
@@ -61,10 +57,7 @@ export default {
 
 @media (max-width: 450px) {
     .chartBar__procentage {
-        background-color: hsl(10, 79%, 65%);
-        border-radius: 5px;
-        width: 2rem;
-        height: var(--chartBar-height);
+        width: 1.5rem;
     }
 
     .chartBar__procentage:hover::after {
@@ -72,11 +65,12 @@ export default {
         background-color: hsl(25, 47%, 15%);
         color: hsl(33, 100%, 98%);
         border-radius: 5px;
-        font-size: .80rem;
-        padding: .5rem;
+        font-size: .65rem;
+        padding: .35rem;
         position: absolute;
         top: -3.5em;
-        right: -1em;
+        /* right: -.65rem; */
+        /* right: -.25rem; */
     }
 }
 </style>

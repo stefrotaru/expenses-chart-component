@@ -40,4 +40,10 @@ export default {
     width: 87.5%;
     align-self: center;
 }
+
+@media (max-width: 450px) {
+    .expenses {
+        margin-inline: 1rem;
+    }
+}
 </style>

@@ -12,8 +12,7 @@
 
 <script>
 export default {
-    name: 'ExpensesHeader',
-
+    name: 'ExpensesHeader'
 }
 </script>
 
@@ -21,12 +20,10 @@ export default {
 .header {
     background-color: hsl(10, 79%, 65%);
     border-radius: 1rem;
-    /* max-width: 500px; */
     padding: 1.5rem;
 
     display: flex;
     justify-content: space-between;
-    /* gap: 1rem; */
 }
 .header__myBalance {}
 .header__myBalance-title {
@@ -38,5 +35,10 @@ export default {
     font-size: 1.5rem;
     font-weight: 400;
 }
-.header__logo {}
+
+@media (max-width: 450px) {
+    .header {
+        margin-inline: 1rem;
+    }
+}
 </style>
