@@ -9,7 +9,11 @@ export default {
   name: 'App',
   components: {
     ExpensesApp
-  }
+  },
+  created() {
+		// Setting Language in the HTML document
+		document.documentElement.setAttribute('lang', 'en-US')
+	}
 }
 </script>
 

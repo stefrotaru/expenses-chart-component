@@ -1,7 +1,7 @@
 <template>
-    <div class="chartBar" id="chartBar">
+    <div class="chartBar">
         <div class="chartBar__procentage" :style="cssProps" ></div>
-        <label class="chartBar__label" for="chartBar">{{expenses.day}}</label>
+        <label class="chartBar__label">{{expenses.day}}</label>
     </div>
 </template>
 
