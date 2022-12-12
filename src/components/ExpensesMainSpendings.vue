@@ -26,7 +26,7 @@ export default {
     justify-content: space-between;
 }
 .spendings__left-col > p, .spendings__right-col > p {
-    font-size: calc(.5rem + .8vw);
+    font-size: calc(.5rem + .5vw);
     padding-block-end: .25rem;
     color: hsl(28, 10%, 53%);
 }
@@ -36,13 +36,13 @@ export default {
     justify-content: flex-end;
 }
 .spendings__percentage {
-    font-size: calc(.75rem + 1vw);
+    font-size: calc(.7rem + .5vw);
     font-weight: 600;
     align-self: flex-end;
     justify-self: flex-end;
 }
 .spendings__total {
-    font-size: calc(1.5rem + 1.5vw);
+    font-size: calc(1.5rem + 1vw);
     font-weight: 600;
 }
 
